@@ -1,0 +1,21 @@
+{
+  "source_sha256": "2cb707d81ae709f6f6471efff7181baab146a69fb4c81dad398b4fce72d38f45",
+  "simulation": true,
+  "results": [
+    {
+      "id": "INC-001",
+      "coverage": 0.95,
+      "decision": "RECOVERED"
+    },
+    {
+      "id": "INC-002",
+      "coverage": 0.98,
+      "decision": "WAIT_APPROVAL"
+    },
+    {
+      "id": "INC-003",
+      "coverage": 0.0,
+      "decision": "VERIFY_REQUIRED"
+    }
+  ]
+}

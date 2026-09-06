@@ -1,0 +1,23 @@
+[
+  {
+    "id": "data-a",
+    "public": false,
+    "shared_key": false,
+    "secret_in_code": false,
+    "rpo": 15
+  },
+  {
+    "id": "data-b",
+    "public": true,
+    "shared_key": true,
+    "secret_in_code": false,
+    "rpo": 15
+  },
+  {
+    "id": "data-c",
+    "public": false,
+    "shared_key": false,
+    "secret_in_code": true,
+    "rpo": 90
+  }
+]

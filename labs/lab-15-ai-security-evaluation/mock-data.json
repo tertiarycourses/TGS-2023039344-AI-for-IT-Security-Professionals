@@ -1,0 +1,27 @@
+[
+  {
+    "id": "case-1",
+    "label": true,
+    "predicted": true
+  },
+  {
+    "id": "case-2",
+    "label": false,
+    "predicted": true
+  },
+  {
+    "id": "case-3",
+    "label": true,
+    "predicted": false
+  },
+  {
+    "id": "case-4",
+    "label": false,
+    "predicted": false
+  },
+  {
+    "id": "case-5",
+    "label": true,
+    "predicted": true
+  }
+]

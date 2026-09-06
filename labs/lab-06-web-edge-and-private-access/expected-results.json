@@ -1,0 +1,18 @@
+{
+  "source_sha256": "b76e101e728435a391229ac6652a2df0f89aa4cb7d93e42471fe88e1d2054aa7",
+  "simulation": true,
+  "results": [
+    {
+      "id": "storage-a",
+      "decision": "PRIVATE_CONFIG"
+    },
+    {
+      "id": "storage-b",
+      "decision": "DNS_MISMATCH"
+    },
+    {
+      "id": "storage-c",
+      "decision": "PUBLIC_PATH_REMAINS"
+    }
+  ]
+}

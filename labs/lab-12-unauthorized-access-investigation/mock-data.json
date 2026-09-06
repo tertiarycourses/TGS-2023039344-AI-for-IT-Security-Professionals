@@ -1,0 +1,20 @@
+[
+  {
+    "id": "E07",
+    "minute": 7,
+    "actor": "user_004",
+    "action": "read-data"
+  },
+  {
+    "id": "E03",
+    "minute": 3,
+    "actor": "user_004",
+    "action": "role-grant"
+  },
+  {
+    "id": "E01",
+    "minute": 1,
+    "actor": "user_004",
+    "action": "signin"
+  }
+]

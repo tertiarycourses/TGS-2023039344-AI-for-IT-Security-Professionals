@@ -1,0 +1,30 @@
+[
+  {
+    "id": "req-a",
+    "action": "read",
+    "grants": [
+      "read"
+    ],
+    "requester": "u1",
+    "approver": "u2"
+  },
+  {
+    "id": "req-b",
+    "action": "write",
+    "grants": [
+      "read"
+    ],
+    "requester": "u1",
+    "approver": "u2"
+  },
+  {
+    "id": "req-c",
+    "action": "write",
+    "grants": [
+      "read",
+      "write"
+    ],
+    "requester": "u1",
+    "approver": "u1"
+  }
+]

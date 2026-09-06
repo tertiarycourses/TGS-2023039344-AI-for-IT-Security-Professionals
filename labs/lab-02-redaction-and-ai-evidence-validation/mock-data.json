@@ -1,0 +1,23 @@
+[
+  {
+    "id": "C1",
+    "evidence_id": "E17",
+    "user": "person01@example.test",
+    "token": "SYNTHETIC-TOKEN",
+    "claim": "E17 reports failure"
+  },
+  {
+    "id": "C2",
+    "evidence_id": "E99",
+    "user": "person02@example.test",
+    "token": "SYNTHETIC-TOKEN",
+    "claim": "E99 proves compromise"
+  },
+  {
+    "id": "C3",
+    "evidence_id": "E18",
+    "user": "person03@example.test",
+    "token": "SYNTHETIC-TOKEN",
+    "claim": "E18 records a successful sign-in"
+  }
+]

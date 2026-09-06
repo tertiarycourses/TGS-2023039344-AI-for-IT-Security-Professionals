@@ -1,0 +1,15 @@
+.env
+.env.*
+**/.env
+**/.env.*
+*.pem
+*.key
+assessment/
+reference/
+qa/
+build/
+__pycache__/
+.DS_Store
+results.json
+changed-data.json
+changed-results.json

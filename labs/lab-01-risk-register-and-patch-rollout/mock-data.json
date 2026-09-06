@@ -1,0 +1,29 @@
+[
+  {
+    "id": "srv-pay",
+    "severity": 8,
+    "criticality": 5,
+    "exposure": 2,
+    "owner": "Priya",
+    "baseline": 0.5,
+    "canary": 3.0
+  },
+  {
+    "id": "srv-lab",
+    "severity": 9,
+    "criticality": 1,
+    "exposure": 1,
+    "owner": "Sam",
+    "baseline": 0.5,
+    "canary": 0.6
+  },
+  {
+    "id": "srv-web",
+    "severity": 6,
+    "criticality": 3,
+    "exposure": 2,
+    "owner": "Lin",
+    "baseline": 0.5,
+    "canary": 0.8
+  }
+]

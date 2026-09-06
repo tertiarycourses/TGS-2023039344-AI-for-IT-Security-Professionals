@@ -1,0 +1,23 @@
+[
+  {
+    "id": "signin-1",
+    "mode": "report-only",
+    "requires_mfa": true,
+    "mfa": false,
+    "audience_ok": true
+  },
+  {
+    "id": "signin-2",
+    "mode": "enabled",
+    "requires_mfa": true,
+    "mfa": false,
+    "audience_ok": true
+  },
+  {
+    "id": "signin-3",
+    "mode": "enabled",
+    "requires_mfa": true,
+    "mfa": true,
+    "audience_ok": false
+  }
+]

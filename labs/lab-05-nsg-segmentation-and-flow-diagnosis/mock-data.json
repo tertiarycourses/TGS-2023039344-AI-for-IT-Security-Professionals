@@ -1,0 +1,20 @@
+[
+  {
+    "id": "flow-1",
+    "src": "web",
+    "dst": "app",
+    "port": 443
+  },
+  {
+    "id": "flow-2",
+    "src": "internet",
+    "dst": "app",
+    "port": 22
+  },
+  {
+    "id": "flow-3",
+    "src": "app",
+    "dst": "data",
+    "port": 1433
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "source_sha256": "a7e182b47b6226279b74b60f9b355d6ff42061ba3a13dc3e25ad4acedf7b5682",
+  "simulation": true,
+  "results": [
+    {
+      "id": "flow-1",
+      "decision": "ALLOW",
+      "rule": 100
+    },
+    {
+      "id": "flow-2",
+      "decision": "DENY",
+      "rule": "default"
+    },
+    {
+      "id": "flow-3",
+      "decision": "ALLOW",
+      "rule": 110
+    }
+  ]
+}

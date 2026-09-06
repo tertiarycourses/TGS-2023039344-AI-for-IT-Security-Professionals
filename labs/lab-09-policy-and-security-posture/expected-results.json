@@ -1,0 +1,18 @@
+{
+  "source_sha256": "ee2cb9b8b6d644c0d47fed228e73920cd92bb4c479c5e7d6dc83ec019b891278",
+  "simulation": true,
+  "results": [
+    {
+      "id": "pol-a",
+      "decision": "AUDIT_FINDING"
+    },
+    {
+      "id": "pol-b",
+      "decision": "WOULD_DENY_REQUEST"
+    },
+    {
+      "id": "pol-c",
+      "decision": "EXPIRED_EXCEPTION"
+    }
+  ]
+}

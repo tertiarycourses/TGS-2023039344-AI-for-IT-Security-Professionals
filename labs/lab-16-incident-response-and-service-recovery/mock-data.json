@@ -1,0 +1,26 @@
+[
+  {
+    "id": "INC-001",
+    "approved": true,
+    "action_ok": true,
+    "retest_ok": true,
+    "events_expected": 100,
+    "events_seen": 95
+  },
+  {
+    "id": "INC-002",
+    "approved": false,
+    "action_ok": false,
+    "retest_ok": false,
+    "events_expected": 100,
+    "events_seen": 98
+  },
+  {
+    "id": "INC-003",
+    "approved": true,
+    "action_ok": true,
+    "retest_ok": false,
+    "events_expected": 100,
+    "events_seen": 0
+  }
+]

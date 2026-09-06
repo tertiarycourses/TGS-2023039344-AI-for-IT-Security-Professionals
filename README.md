@@ -1,71 +1,64 @@
-# TGS-2023039344 - Microsoft Azure Security Engineer Associate (AZ-500)
+# AI for IT Security Professionals
 
-> **Course:** WSQ - Microsoft Azure Security Engineer Associate (AZ-500)  
-> **Course Code:** TGS-2023039344  
-> **Register here:** https://www.tertiarycourses.com.sg/wsq-microsoft-azure-security-engineer-associate-az-500.html
+**TGS-2023039344 · v6.0 · 6 September 2026**
 
-These are the official hands-on lab exercises for the WSQ Microsoft Azure Security Engineer Associate (AZ-500) course delivered by [**Tertiary Infotech Academy Pte Ltd**](https://www.tertiarycourses.com.sg/).
+![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue) ![Labs](https://img.shields.io/badge/Labs-16-teal) ![Slides](https://img.shields.io/badge/Slides-413-blue)
 
-A complete set of **8 step-by-step labs** aligned to the Microsoft AZ-500 study guide: identity and access, network security, compute security, storage and database protection, Key Vault, Defender for Cloud, Microsoft Sentinel, monitoring, and incident response.
+A four-day course in evidence-based security administration, Azure controls and AI-assisted security operations from Tertiary Infotech Academy Pte Ltd.
 
----
+![Course deck cover](screenshot.png)
 
-## Courseware
+## Course materials
 
-| Artifact | File |
-|----------|------|
-| **Learner Guide (Markdown)** | [LG-Microsoft-Azure-Security-Engineer-Associate-AZ-500.md](LG-Microsoft-Azure-Security-Engineer-Associate-AZ-500.md) |
-| **Lab index** | [labs/README.md](labs/README.md) |
-| **Tools and prerequisites** | [labs/tools.md](labs/tools.md) |
+The `courseware/` folder contains the editable PowerPoint, slide PDF, Learner Guide in DOCX/PDF/Markdown, and Lesson Plan in DOCX/PDF. The deck uses native editable charts and original illustrations. Detailed procedures are in the Learner Guide and lab instructions.
 
----
+[Official course page](https://www.tertiarycourses.com.sg/wsq-ai-for-it-security-professionals.html) · [Course LMS](https://lms-tms.tertiaryinfotech.com/)
 
-## How to use
+## Run a lab
 
-1. Sign in to the Azure portal with an instructor-provided subscription or training tenant.
-2. Confirm that your account can create resource groups, virtual networks, storage accounts, virtual machines, Key Vaults, Defender for Cloud settings, and Microsoft Sentinel workspaces.
-3. Pick a lab from the catalogue below and follow the steps in order.
-4. Use the consolidated [learner guide](LG-Microsoft-Azure-Security-Engineer-Associate-AZ-500.md) when you want the full course lab flow in one file.
-5. Clean up resources at the end of the labs to avoid unexpected Azure charges.
+Download this repository and keep the selected lab folder intact. Install Python 3.10 or later; the baseline requires no packages, credentials or network connection.
 
----
+```bash
+cd labs/lab-01-risk-register-and-patch-rollout
+python3 analyse.py --input mock-data.json --output results.json
+```
 
-## Lab catalogue
+On Windows use `py -3` if needed. Open the lab's INSTRUCTIONS.md or INSTRUCTIONS.pdf, compare expected-results.json, change one input, and explain the result. Each folder has synthetic data, its own script, an AI review prompt, expected results and an evidence template.
 
-### Domain 1 - Secure identity and access
-- [Lab 1 - Configure RBAC, Custom Roles, and Privileged Access Review](labs/lab-01-identity-rbac-pim.md)
-- [Lab 2 - Secure App Access with Conditional Access and Managed Identities](labs/lab-02-conditional-access-managed-identities.md)
+The Python programs are deterministic teaching models, not trained AI models or full Azure emulators. The AI review exercise uses an organisation-approved tool separately. Azure procedures require the trainer-assigned sandbox, permissions and relevant feature entitlement. Report simulation, operational verification and blockers accurately.
 
-### Domain 2 - Secure networking
-- [Lab 3 - Secure Virtual Networks with NSGs, ASGs, Peering, and Network Watcher](labs/lab-03-network-security-nsg-asg.md)
-- [Lab 4 - Protect Public and Private Access with Azure Firewall, WAF, and Private Endpoints](labs/lab-04-firewall-waf-private-endpoints.md)
+## Learning plan
 
-### Domain 3 - Secure compute, storage, and databases
-- [Lab 5 - Secure Virtual Machines, Bastion, JIT Access, and Disk Encryption](labs/lab-05-compute-security-vm-bastion-jit.md)
-- [Lab 6 - Protect Storage, SQL Database, and Key Vault Secrets](labs/lab-06-storage-sql-key-vault.md)
+30 hours learning/practice plus 2 assessment hours. Days 1–3 have eight training hours each; Day 4 has six training hours and two assessment hours. Breaks are excluded.
 
-### Domain 4 - Defender for Cloud and Sentinel
-- [Lab 7 - Manage Security Posture with Azure Policy and Defender for Cloud](labs/lab-07-defender-policy-secure-score.md)
-- [Lab 8 - Monitor, Investigate, and Automate with Microsoft Sentinel](labs/lab-08-sentinel-monitor-investigate-automate.md)
+- [Lab 01 risk register and patch rollout](labs/lab-01-risk-register-and-patch-rollout/INSTRUCTIONS.md)
+- [Lab 02 redaction and ai evidence validation](labs/lab-02-redaction-and-ai-evidence-validation/INSTRUCTIONS.md)
+- [Lab 03 rbac and privileged access](labs/lab-03-rbac-and-privileged-access/INSTRUCTIONS.md)
+- [Lab 04 conditional access and workload identity](labs/lab-04-conditional-access-and-workload-identity/INSTRUCTIONS.md)
+- [Lab 05 nsg segmentation and flow diagnosis](labs/lab-05-nsg-segmentation-and-flow-diagnosis/INSTRUCTIONS.md)
+- [Lab 06 web edge and private access](labs/lab-06-web-edge-and-private-access/INSTRUCTIONS.md)
+- [Lab 07 vm administration and encryption](labs/lab-07-vm-administration-and-encryption/INSTRUCTIONS.md)
+- [Lab 08 storage sql and secret protection](labs/lab-08-storage-sql-and-secret-protection/INSTRUCTIONS.md)
+- [Lab 09 policy and security posture](labs/lab-09-policy-and-security-posture/INSTRUCTIONS.md)
+- [Lab 10 security logs and detection metrics](labs/lab-10-security-logs-and-detection-metrics/INSTRUCTIONS.md)
+- [Lab 11 access rights troubleshooting](labs/lab-11-access-rights-troubleshooting/INSTRUCTIONS.md)
+- [Lab 12 unauthorized access investigation](labs/lab-12-unauthorized-access-investigation/INSTRUCTIONS.md)
+- [Lab 13 prompt injection and retrieval boundaries](labs/lab-13-prompt-injection-and-retrieval-boundaries/INSTRUCTIONS.md)
+- [Lab 14 tool gateway and response approvals](labs/lab-14-tool-gateway-and-response-approvals/INSTRUCTIONS.md)
+- [Lab 15 ai security evaluation](labs/lab-15-ai-security-evaluation/INSTRUCTIONS.md)
+- [Lab 16 incident response and service recovery](labs/lab-16-incident-response-and-service-recovery/INSTRUCTIONS.md)
 
----
+## Structure
 
-## Reference
+- `courseware/`: current v6.0 learner and trainer deliverables.
+- `labs/lab-01-.../` through `labs/lab-16-.../`: independent exercises.
 
-- [Microsoft AZ-500 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-500)
-- [Course registration page](https://www.tertiarycourses.com.sg/wsq-microsoft-azure-security-engineer-associate-az-500.html)
-- [Azure security documentation](https://learn.microsoft.com/en-us/azure/security/)
-- [Microsoft Defender for Cloud documentation](https://learn.microsoft.com/en-us/azure/defender-for-cloud/)
-- [Microsoft Sentinel documentation](https://learn.microsoft.com/en-us/azure/sentinel/)
+Assessment papers and trainer answer keys are distributed through the authorised course process, not this public repository. Original ebooks, reference decks, credentials and build/QA tooling are excluded.
 
----
+## Evidence and validation
 
-## Free tools used
+All 16 baseline exercises and all 16 specified changed-input experiments were checked. The 413-slide deck and documents were rendered and visually reviewed. Native charts use explicitly synthetic lab data. These checks do not assert that Azure deployments were executed by the build process.
 
-Most labs use the Azure portal and Microsoft Learn documentation. Optional free helper tools:
+## Credits
 
-- **Azure Cloud Shell** - browser-based Bash and PowerShell in Azure.
-- **Azure CLI** - optional local command-line tool.
-- **Microsoft Learn** - free study guide and reference documentation.
-- **VS Code** - optional editor for JSON policy, KQL, and notes.
-
+Courseware by Tertiary Infotech Academy Pte Ltd, UEN 201200696W. Original illustrations generated for this course. Technical source references appear in the Learner Guide. Copyright 2026 Tertiary Infotech Academy Pte Ltd.

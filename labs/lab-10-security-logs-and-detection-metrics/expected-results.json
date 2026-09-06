@@ -1,0 +1,16 @@
+{
+  "source_sha256": "f4082b2aa3387283b97acf41596370577b2918e503f7e1aa31ddb75c60e02c8e",
+  "simulation": true,
+  "results": [
+    {
+      "id": "user_004",
+      "peak": 5,
+      "decision": "ALERT"
+    },
+    {
+      "id": "user_007",
+      "peak": 1,
+      "decision": "NO_ALERT"
+    }
+  ]
+}

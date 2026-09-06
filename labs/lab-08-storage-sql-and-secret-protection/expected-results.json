@@ -1,0 +1,18 @@
+{
+  "source_sha256": "7210869187efce99dea9f86defd54882508ef2b30c9a96d355099e2a06b579ba",
+  "simulation": true,
+  "results": [
+    {
+      "id": "data-a",
+      "decision": "BASELINE_OK"
+    },
+    {
+      "id": "data-b",
+      "decision": "ACCESS_REVIEW"
+    },
+    {
+      "id": "data-c",
+      "decision": "SECRET_EXPOSURE,RPO_BREACH"
+    }
+  ]
+}

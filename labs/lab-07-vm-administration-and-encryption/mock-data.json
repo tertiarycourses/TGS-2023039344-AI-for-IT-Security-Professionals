@@ -1,0 +1,20 @@
+[
+  {
+    "id": "vm-a",
+    "public_admin": false,
+    "jit_minutes": 30,
+    "encrypted": true
+  },
+  {
+    "id": "vm-b",
+    "public_admin": true,
+    "jit_minutes": 999,
+    "encrypted": true
+  },
+  {
+    "id": "vm-c",
+    "public_admin": false,
+    "jit_minutes": 30,
+    "encrypted": false
+  }
+]

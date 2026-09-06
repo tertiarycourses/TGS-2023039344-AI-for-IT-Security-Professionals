@@ -1,0 +1,30 @@
+[
+  {
+    "id": "call-a",
+    "tool": "read_incident",
+    "target": "INC-001",
+    "approved_target": "INC-001",
+    "expired": false
+  },
+  {
+    "id": "call-b",
+    "tool": "delete_resource",
+    "target": "vm-a",
+    "approved_target": "vm-a",
+    "expired": false
+  },
+  {
+    "id": "call-c",
+    "tool": "contain_test",
+    "target": "INC-002",
+    "approved_target": "INC-001",
+    "expired": false
+  },
+  {
+    "id": "call-d",
+    "tool": "contain_test",
+    "target": "INC-001",
+    "approved_target": "INC-001",
+    "expired": true
+  }
+]

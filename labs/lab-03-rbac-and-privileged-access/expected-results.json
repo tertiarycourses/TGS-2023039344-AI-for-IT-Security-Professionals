@@ -1,0 +1,21 @@
+{
+  "source_sha256": "2d5f2a3c7ea9c27f0fa0c096bfe7d2df0affa6fb5a72be1f47c9ff54f8c7c982",
+  "simulation": true,
+  "results": [
+    {
+      "id": "u-read",
+      "decision": "SCOPED",
+      "minutes": 0
+    },
+    {
+      "id": "u-owner",
+      "decision": "REVIEW_BROAD",
+      "minutes": 999
+    },
+    {
+      "id": "u-pim",
+      "decision": "SCOPED",
+      "minutes": 30
+    }
+  ]
+}

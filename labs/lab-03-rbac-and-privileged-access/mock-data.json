@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u-read",
+    "roles": [
+      "Reader"
+    ],
+    "scope": "rg-sec",
+    "active_minutes": 0
+  },
+  {
+    "id": "u-owner",
+    "roles": [
+      "Owner"
+    ],
+    "scope": "subscription",
+    "active_minutes": 999
+  },
+  {
+    "id": "u-pim",
+    "roles": [
+      "Contributor"
+    ],
+    "scope": "rg-sec",
+    "active_minutes": 30
+  }
+]

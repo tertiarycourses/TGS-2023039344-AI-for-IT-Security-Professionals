@@ -1,0 +1,21 @@
+{
+  "source_sha256": "d34f35194c271a7e068619eb0530ae7582aa04b4a4e2d805e9f349faeb9684b0",
+  "simulation": true,
+  "results": [
+    {
+      "id": "E01",
+      "minute": 1,
+      "decision": "signin"
+    },
+    {
+      "id": "E03",
+      "minute": 3,
+      "decision": "role-grant"
+    },
+    {
+      "id": "E07",
+      "minute": 7,
+      "decision": "read-data"
+    }
+  ]
+}

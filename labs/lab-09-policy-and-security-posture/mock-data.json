@@ -1,0 +1,20 @@
+[
+  {
+    "id": "pol-a",
+    "effect": "audit",
+    "compliant": false,
+    "exception_expired": false
+  },
+  {
+    "id": "pol-b",
+    "effect": "deny",
+    "compliant": false,
+    "exception_expired": false
+  },
+  {
+    "id": "pol-c",
+    "effect": "audit",
+    "compliant": true,
+    "exception_expired": true
+  }
+]

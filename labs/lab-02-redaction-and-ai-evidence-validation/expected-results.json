@@ -1,0 +1,24 @@
+{
+  "source_sha256": "febc4e29dcaa156b8a07b3f28139a73a197d5d0c73a88914101ed159e5aa6804",
+  "simulation": true,
+  "results": [
+    {
+      "id": "C1",
+      "user": "user_000",
+      "token": "[REMOVED]",
+      "decision": "SUPPORTED_ID"
+    },
+    {
+      "id": "C2",
+      "user": "user_001",
+      "token": "[REMOVED]",
+      "decision": "UNSUPPORTED_ID"
+    },
+    {
+      "id": "C3",
+      "user": "user_002",
+      "token": "[REMOVED]",
+      "decision": "SUPPORTED_ID"
+    }
+  ]
+}

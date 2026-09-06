@@ -1,0 +1,18 @@
+{
+  "source_sha256": "c3d0f2337c4be1f12b82bcbce4697bec48209983d4b50f229f002c747ea06ae8",
+  "simulation": true,
+  "results": [
+    {
+      "id": "chunk-a",
+      "decision": "RETRIEVE"
+    },
+    {
+      "id": "chunk-b",
+      "decision": "DENY_TENANT"
+    },
+    {
+      "id": "chunk-c",
+      "decision": "QUARANTINE_UNTRUSTED"
+    }
+  ]
+}

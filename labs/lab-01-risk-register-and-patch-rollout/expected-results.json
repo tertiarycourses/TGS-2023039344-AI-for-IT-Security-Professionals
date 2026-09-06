@@ -1,0 +1,21 @@
+{
+  "source_sha256": "db1b80c1fd9bb471494f788e9ab9dce22a939c14db582e03b6c688e37dc1eaf8",
+  "simulation": true,
+  "results": [
+    {
+      "id": "srv-pay",
+      "score": 80,
+      "decision": "ROLLBACK"
+    },
+    {
+      "id": "srv-web",
+      "score": 36,
+      "decision": "CONTINUE"
+    },
+    {
+      "id": "srv-lab",
+      "score": 9,
+      "decision": "CONTINUE"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source_sha256": "2684ed7e043b629489c0c815c6d50626ebcc4719d74ecc506b5a3b60a80d156f",
+  "simulation": true,
+  "results": [
+    {
+      "id": "signin-1",
+      "decision": "WOULD_BLOCK"
+    },
+    {
+      "id": "signin-2",
+      "decision": "BLOCK"
+    },
+    {
+      "id": "signin-3",
+      "decision": "WRONG_AUDIENCE"
+    }
+  ]
+}

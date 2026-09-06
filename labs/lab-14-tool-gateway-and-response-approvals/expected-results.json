@@ -1,0 +1,22 @@
+{
+  "source_sha256": "5d0304d7479f7e806fd02be0d240780d0f0efa44d2e226b5b944784a0a940360",
+  "simulation": true,
+  "results": [
+    {
+      "id": "call-a",
+      "decision": "ALLOW"
+    },
+    {
+      "id": "call-b",
+      "decision": "DENY_TOOL"
+    },
+    {
+      "id": "call-c",
+      "decision": "DENY_BINDING"
+    },
+    {
+      "id": "call-d",
+      "decision": "DENY_EXPIRED"
+    }
+  ]
+}

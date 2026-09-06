@@ -1,0 +1,18 @@
+{
+  "source_sha256": "3efd63138d547224e6d413ba95cec5b46da6aaa153f33b1091841ce2cb9df36d",
+  "simulation": true,
+  "results": [
+    {
+      "id": "vm-a",
+      "decision": "BASELINE_OK"
+    },
+    {
+      "id": "vm-b",
+      "decision": "PUBLIC_ADMIN,LONG_WINDOW"
+    },
+    {
+      "id": "vm-c",
+      "decision": "ENCRYPTION_REVIEW"
+    }
+  ]
+}

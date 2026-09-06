@@ -1,7 +1,7 @@
 # Lab 08 evidence
 
-Learner: 
-Date: 
+Learner:
+Date:
 Mode: offline simulation / Azure verified / blocked
 
 ## Baseline result and source hash
